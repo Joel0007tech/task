@@ -39,18 +39,23 @@ main {
   color: black;
 }
 
+.image-section{
+  display: flex;
+  justify-content: center;
+}
+
 .image {
   background-image: url(FB_IMG_1632361671640__2_-removebg-preview.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px;
-  margin-left: 25%;
   margin-top:5%;
   background-color: whitesmoke;
 }
 #links {
   margin-top:10%;
-  display:inline-flex;
+  display:flex;
+  justify-content: center;
   gap:30px;
 }
 #first-link {
